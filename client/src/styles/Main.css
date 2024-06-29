@@ -1,0 +1,13 @@
+.me {
+    text-align: center;
+}
+.txt {
+    font-size: 25px;
+    max-width: 750px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fluid {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
