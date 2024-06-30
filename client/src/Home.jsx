@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <header className="bg-primary text-white text-center py-5">
                 <Container>
-                    <h1 className="display-4">Hello <div className="wave">&#x270B;</div> and Welcome to My TImar_Gloable</h1>
+                    <h1 className="display-4">Hello <div className="wave">&#x270B;</div> and Welcome to TImar Global Website</h1>
                     <p className="lead">A pleasure</p>
                 </Container>
             </header>

@@ -23,6 +23,7 @@ class User(db.Model):
     password = db.Column(db.String(200), nullable=False)
     role = db.Column(db.String(80), nullable=False, default='user')
 
+
 @app.route('/register', methods=['POST'])
 def register():
     data = request.get_json()
@@ -40,7 +41,7 @@ def register():
     try:
         db.session.add(new_user)
         db.session.commit()
-        return jsonify(message='User registered successfully'), 201
+        return jsonify({'username': new_user.username, 'role': new_user.role}), 200
     except Exception as e:
         print(f"Error: {e}")
         return jsonify(message='Registration failed'), 500
@@ -51,7 +52,7 @@ def login():
     user = User.query.filter_by(email=data['email']).first()
     if user and bcrypt.check_password_hash(user.password, data['password']):
         access_token = create_access_token(identity={'username': user.username, 'role': user.role})
-        return jsonify(message=f"{user.role} is successfully logged in"), 200
+        return jsonify({'username': user.username, 'role': user.role}), 200
     else:
         return jsonify(message='Invalid credentials'), 401
 

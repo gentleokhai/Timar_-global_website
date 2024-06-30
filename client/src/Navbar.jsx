@@ -7,7 +7,7 @@ const Mynavbar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
     <Container>
-      <Navbar.Brand href="/">Gentle Okhai</Navbar.Brand>
+      <Navbar.Brand href="/">Timar World</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav">
         <Nav className="ms-auto">
