@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button, Form } from 'react-bootstrap';
+import { Container, Row, Col, Button, Form, Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/Main.css';
 import React, { useState, useContext } from 'react';
@@ -29,7 +29,21 @@ const Login = () => {
   };
   
   return (
-         <section id="contact" className="py-5">
+    <div>
+      <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+    <Container>
+      <Navbar.Brand href="/">Timar World</Navbar.Brand>
+      <Navbar.Toggle aria-controls="navbar-nav" />
+      <Navbar.Collapse id="navbar-nav">
+        <Nav className="ms-auto">
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/login">Login</Nav.Link>
+          <Nav.Link href="/register">Register</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
+  <section id="contact" className="py-5">
              <Container>
                  <h2 className="text-center mb-4">Login</h2>
                  <Row className="justify-content-center">
@@ -49,6 +63,7 @@ const Login = () => {
                  </Row>
              </Container>
          </section>
+    </div>
   );
   
 };
