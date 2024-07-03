@@ -1,0 +1,13 @@
+.home {
+    background: linear-gradient(#00246B, #CADCFC);
+    height: 100vh;
+}
+
+.header {
+    font-size: 22px;
+}
+
+.header Button {
+    background: linear-gradient(#00246B, #CADCFC);
+    font-size: 23px;
+}
