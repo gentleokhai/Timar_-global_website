@@ -11,3 +11,17 @@
 .img-fluid {
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
+
+
+
+.justify-content-center Button {
+    color: black;
+    background: linear-gradient(#00246B, #CADCFC);
+    font-size: 23px;
+}
+
+.mb-4 Button {
+    color: black;
+    background: linear-gradient(#00246B, #CADCFC);
+    font-size: 23px;
+}

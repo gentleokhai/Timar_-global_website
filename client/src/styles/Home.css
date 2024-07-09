@@ -1,13 +1,16 @@
-.home {
-    background: linear-gradient(#00246B, #CADCFC);
-    height: 100vh;
+.display-4 {
+    font-weight: 900;
 }
 
 .header {
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .header Button {
     background: linear-gradient(#00246B, #CADCFC);
     font-size: 23px;
+}
+
+.header Button a {
+    color: black;
 }

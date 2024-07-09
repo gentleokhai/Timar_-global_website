@@ -22,8 +22,6 @@ const User = () => {
       <Navbar.Collapse id="navbar-nav">
         <Nav className="ms-auto">
         <Nav.Link href="/user/:username">Home</Nav.Link>
-          <Nav.Link href="/cart">Cart</Nav.Link>
-          <Nav.Link href="/order">Orders</Nav.Link>
           <Nav.Link href='#' onClick={handleLogout}>logout</Nav.Link>
         </Nav>
         </Navbar.Collapse>

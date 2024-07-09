@@ -23,11 +23,9 @@ const Home = () => {
             </Navbar>
             <header className="text-center py-5">
                 <Container className='header'>
-                    {/* <h1 className="display-4">Hello <div className="wave">&#x270B;</div> and Welcome to TImar Global Website</h1>
-                    <p className="lead">A pleasure</p> */}
-                    <p>Welcome to Timar World!</p>
+                    <h1 className="display-4">Hello <div className="wave">&#x270B;</div> Welcome to Timar Global Website</h1>
                     <p>
-                    Discover a world of unique and high-quality products curated just for you.
+                    Discover a world of unique and high quality products curated just for you.
                     </p>
                     <p>
                         At Timar World, we believe in providing our customers with the best shopping experience.
@@ -36,11 +34,11 @@ const Home = () => {
                          Our mission is to bring you a diverse range of products that cater to all your needs, ensuring quality, affordability, and satisfaction.
                     </p>
                     <p>
-                        Explore our collections and find something special today.
+                        Click the button below to begin exploring our collections and find something special just for you today.
                     </p>
 
                     <Button className='Button'><a href='/register'>Shop Now</a></Button>
-                    <p>Already part of the community?</p>
+                    <p>Already part of the community? Click the button below to continue exploring!</p>
                     <Button className='Button'><a href='/login'>Welcome Back</a></Button>
                 </Container>
             </header>

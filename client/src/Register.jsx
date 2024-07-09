@@ -68,6 +68,8 @@ const Register = () => {
                              <Form.Control type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Enter your Password" required />
                          </Form.Group>                        
                          <Button variant="primary" type="submit">Submit</Button>
+
+                         <p>Already a user? click to<a href='/login'> Login</a></p>
                      </Form>
                  </Col>
              </Row>
