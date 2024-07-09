@@ -56,7 +56,6 @@ const Admin = () => {
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="/admin">Home</Nav.Link>
-              <Nav.Link href="/admin/orders">Orders</Nav.Link>
               <Nav.Link href="#" onClick={logout}>Logout</Nav.Link>
             </Nav>
           </Navbar.Collapse>
